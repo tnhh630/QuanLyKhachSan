@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="lblBackground" max="32767" attributes="0"/>
+          <Component id="jScrollPane1" alignment="0" pref="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="lblBackground" min="-2" pref="307" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="234" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JEditorPane" name="pane">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder/>
+              </Border>
+            </Property>
+            <Property name="contentType" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot; D&#x1ef1; &#xc1;n Qu&#x1ea3;n L&#xfd; Kh&#xe1;ch S&#x1ea1;n b&#x1eb1;ng ph&#x1ea7;n m&#x1ec1;m GodEdoc Hotel do team&lt;html&gt;&lt;font color = yellow&gt; GodEdoc&lt;/font&gt;&lt;/html&gt;  g&#x1ed3;m c&#xe1;c th&#xe0;nh vi&#xea;n:\n&quot; +&#xd;&#xa;&quot; 1. Tr&#x1ea7;n Trung Ngh&#x129;a \n&quot; +&#xd;&#xa;&quot; 2 .Tr&#x1ea7;n Nguy&#xea;n H&#x1ea3;i\n&quot; +&#xd;&#xa;&quot; 3.Do&#xe3;n Ho&#xe0;i Nam\n&quot; +&#xd;&#xa;&quot; 4. L&#xea; Qu&#xfd; V&#x1b0;&#x1a1;ng\n&quot; +&#xd;&#xa;&quot; 5. H&#x1ed3; Trung T&#xed;nh\n&quot; +&#xd;&#xa;&quot; 6. Nguy&#x1ec5;n Ng&#x1ecd;c Gi&#xe0;u\n&quot; +&#xd;&#xa;&quot; &#x111;&#x1ed3;ng h&#xe0;nh v&#xe0;o t&#x1ea1;o l&#x1ead;p n&#xea;n, m&#x1ee5;c &#x111;&#xed;ch t&#x1ea1;o ra m&#x1ed9;t ph&#x1ea7;n m&#x1ec1;m th&#xe2;n thi&#x1ec7;n d&#x1ec5; d&#xf9;ng\n&quot; +&#xd;&#xa;&quot; v&#xe0; ti&#x1ec7;n nghi cho kh&#xe1;ch h&#xe0;ng.\n&quot; +&#xd;&#xa;&quot; Y&#xea;u c&#x1ea7;u v&#x1ec1; m&#xf4;i tr&#x1b0;&#x1edd;ng: \n&quot; +&#xd;&#xa;&quot; 1. H&#x1ec7; &#x111;i&#x1ec1;u h&#xe0;nh b&#x1ea5;t k&#x1ef3;\n&quot; +&#xd;&#xa;&quot; 2. JDK 1.8 tr&#x1edf; l&#xea;n.\n&quot; +&#xd;&#xa;&quot; 3. SQL Server 2008 tr&#x1edf; l&#xea;n.&quot;" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="T&#x1ed5;ng quan&#xa;________________________________________________________________&#xa;Ph&#x1ea7;n m&#x1ec1;m qu&#x1ea3;n l&#xfd; kh&#xe1;ch s&#x1ea1;n GODEDOC HOTEL &#x111;&#x1b0;&#x1ee3;c thi&#x1ebf;t k&#x1ebf; d&#x1ef1;a tr&#xea;n n&#x1ec1;n t&#x1ea3;ng c&#xf4;ng ngh&#x1ec7; hi&#x1ec7;n &#x111;&#x1ea1;i.&#xa; Ph&#xe1;t tri&#x1ec3;n d&#xe0;nh ri&#xea;ng d&#xe0;nh ri&#xea;ng cho quy m&#xf4; nh&#xe0; ngh&#x1ec9;, kh&#xe1;ch s&#x1ea1;n, homestay nh&#x1ecf;.&#xa; C&#xe1;c ch&#x1ee9;c n&#x103;ng c&#x1ee7;a ph&#x1ea7;n m&#x1ec1;m &#x111;&#xe1;p &#x1ee9;ng y&#xea;u c&#x1ea7;u nghi&#x1ec7;p v&#x1ee5; chuy&#xea;n bi&#x1ec7;t t&#x1edb;i t&#x1eeb;ng b&#x1ed9; ph&#x1ead;n: ch&#x1ee7; kh&#xe1;ch s&#x1ea1;n, qu&#x1ea3;n l&#xfd;, l&#x1ec5; t&#xe2;n, bu&#x1ed3;ng ph&#xf2;ng, k&#x1ebf; to&#xe1;n&#x2026; &#xa;N&#x1ebf;u b&#x1ea1;n &#x111;ang t&#xec;m ki&#x1ebf;m ph&#x1ea7;n m&#x1ec1;m h&#x1ed7; tr&#x1ee3; qu&#x1ea3;n l&#xfd; kh&#xe1;ch s&#x1ea1;n d&#x1ec5; s&#x1eed; d&#x1ee5;ng, c&#xf3; th&#x1ec3; tham kh&#x1ea3;o t&#xe0;i li&#x1ec7;u h&#x1b0;&#x1edb;ng d&#x1eab;n ph&#x1ea7;n m&#x1ec1;m qu&#x1ea3;n l&#xfd; kh&#xe1;ch s&#x1ea1;n t&#x1eeb; GODEDOC HOTELL.&#xa;Gi&#x1ea3;i ph&#xe1;p GODEDOC HOTEL cung c&#x1ea5;p:&#xa;________________________________________________________________&#xa; -  Qu&#x1ea3;n l&#xfd; kh&#xe1;ch s&#x1ea1;n to&#xe0;n di&#x1ec7;n.&#xa; -  Giao di&#x1ec7;n th&#xe2;n thi&#x1ec7;n, tr&#x1ef1;c quan, &#x111;&#x1a1;n gi&#x1ea3;n.&#xa; -  Ti&#x1ebf;t ki&#x1ec7;m th&#x1edd;i gian v&#xe0; chi ph&#xed; qu&#x1ea3;n l&#xfd;, &#x111;i&#x1ec1;u h&#xe0;nh.&#xa; -  Ki&#x1ec3;m so&#xe1;t th&#x1ea5;t tho&#xe1;t hi&#x1ec7;u qu&#x1ea3;.&#xa; D&#x1ef1; &#xc1;n Qu&#x1ea3;n L&#xfd; Kh&#xe1;ch S&#x1ea1;n b&#x1eb1;ng ph&#x1ea7;n m&#x1ec1;m GODEDOC HOTEL do team GodEdoc g&#x1ed3;m c&#xe1;c th&#xe0;nh vi&#xea;n:&#xa; 1. Tr&#x1ea7;n Trung Ngh&#x129;a &#xa; 2 .Tr&#x1ea7;n Nguy&#xea;n H&#x1ea3;i&#xa; 3.Do&#xe3;n Ho&#xe0;i Nam&#xa; 4. L&#xea; Qu&#xfd; V&#x1b0;&#x1a1;ng&#xa; 5. H&#x1ed3; Trung T&#xed;nh&#xa; 6. Nguy&#x1ec5;n Ng&#x1ecd;c Gi&#xe0;u&#xa; &#x111;&#x1ed3;ng h&#xe0;nh v&#xe0;o t&#x1ea1;o l&#x1ead;p n&#xea;n, m&#x1ee5;c &#x111;&#xed;ch t&#x1ea1;o ra m&#x1ed9;t ph&#x1ea7;n m&#x1ec1;m th&#xe2;n thi&#x1ec7;n d&#x1ec5; d&#xf9;ng&#xa;v&#xe0; ti&#x1ec7;n nghi cho kh&#xe1;ch h&#xe0;ng.&#xa; Y&#xea;u c&#x1ea7;u v&#x1ec1; m&#xf4;i tr&#x1b0;&#x1edd;ng: &#xa; 1. H&#x1ec7; &#x111;i&#x1ec1;u h&#xe0;nh b&#x1ea5;t k&#x1ef3;&#xa; 2. JDK 1.8 tr&#x1edf; l&#xea;n.&#xa; 3. SQL Server 2008 tr&#x1edf; l&#xea;n."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblBackground">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/icons/hotellogo1.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

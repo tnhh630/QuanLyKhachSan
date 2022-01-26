@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* define/declare font */
+
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("../Buoi_10/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Light";
+    src: url("../Buoi_10/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("../Buoi_10/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Italic";
+    src: url("../Buoi_10/Lato-Italic.ttf");
+}
+@font-face {
+    font-family: "Lato-BoldItalic";
+    src: url("../Buoi_10/Lato-BoldItalic.ttf");
+}
+@font-face {
+    font-family: "Lato-Light";
+    src: url("../Buoi_10/DancingScript-VariableFont_wght.ttf");
+}
+/* html */
+
+/* dung root se apply dc cho cac document khac */
+
+:root {
+    font-size: 16px;
+    --main-color: #444;
+    scroll-behavior: smooth;
+}
+
+#tieu-de{
+    background-color: antiquewhite !important;
+}
+
+
+
+body {
+    max-width: 1020px;
+    margin: auto;
+    color: var(--main-color);
+    font-family: "Lato-Regular";
+    font-size: 16px;
+}
+
+/* header */
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--main-color);
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    margin-left: 4px;
+    margin-right: 4px;
+    /*padding-right: 12px;
+    padding-left: 12px; */
+    padding: 0 12px;
+    line-height: 37px;
+}
+
+.navbar-light .navbar-nav .active .nav-link, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #1bbc9b;
+}
+
+.navbar {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    /* padding : 19px 0; */
+}
+
+/* main */
+
+/* home */
+
+.home {
+    padding-top: 70px;
+    padding-bottom: 82px;
+    background-image: url("images/362619.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.home h1 {
+    font-family: "Lato-Light";
+    font-size: 65px;
+    margin-bottom:80px;
+}
+
+.home h1 strong {
+    font-family: "Lato-BoldItalic";
+}
+
+.home p {
+    font-family: "DancingScript-VariableFont_wght";
+    font-size: 25px;
+    max-width: 576px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+section{
+    /* background-color: antiquewhite !important;     */
+}
+
+button:not(.navbar button) {
+    line-height: 37px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: #1bbc9b;
+    color: #fff;
+    font-size: 13px;
+    font-family: "Lato-Bold";
+    letter-spacing: 2px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+/* portfolio */
+
+.Portfolio {
+    padding-top: 50px;
+    padding-bottom: 27px;
+    max-width: 960px;
+    /* 61px - 34px */
+}
+
+.Portfolio h2 {
+    font-size: 38px;
+    margin-bottom: 11px;
+}
+
+.Portfolio p {
+    margin-bottom: 35px;
+}
+
+.Portfolio button {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 45px;
+}
+
+.Portfolio .box {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 34px;
+}
+
+.Portfolio .box .overlay {
+    background-image: url("images/overlay.png");
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* opacity: 0; */
+    transition: 1s ease;
+    /* không được đặt ở hover */
+    transform: scale(0);
+}
+
+.Portfolio .box:hover .overlay {
+    /* opacity: 1; */
+    transform: scale(1);
+}
+
+/* .portfolio .box:hover .overlay{
+    display: flex !important;
+} */
+
+.Portfolio .box .content span:nth-of-type(1) {
+    display: inline-block;
+    width: 44px;
+    line-height: 44px;
+    border-radius: 50%;
+    background-image: url("images/ovelay_icon.png");
+    font-size: 21px;
+    margin-bottom: 19px;
+}
+
+.Portfolio .box .content span:nth-of-type(2) {
+    font-size: 18px;
+    margin-bottom: 9px;
+    display: inline-block;
+}
+
+.Portfolio .box .content span:nth-of-type(3) {
+    font-size: 14px;
+}
+
+/* about */
+
+.about {
+    padding-top: 53px;
+    padding-bottom: 54px;
+    /* 74px - 20px */
+    background-color: #16a086;
+}
+
+.about>.row {
+    max-width: 840px;
+    margin: auto;
+}
+
+.about h2 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 11px;
+}
+
+.about>p {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 42px;
+}
+
+.about .box {
+    position: relative;
+}
+
+.about .box .overlay {
+    position: absolute;
+    background-image: url("images/overlay.png");
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    /* 
+       top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    nằm giữa 2 chiều
+    */
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    /* để xài được auto canh giữa các phần tử thì phải đi chung display flex */
+    transition: 1s ease;
+}
+
+.about .box:hover .overlay {
+    transform: translate(-50%, -50%) scale(1);
+    /* nếu ko translate(-50 , -50) 
+        nó sẽ trở về 0 - 0
+
+    */
+}
+
+.about .box .overlay a {
+    font-size: 29px;
+    color: white;
+    line-height: 48px;
+}
+
+.about .box:hover .overlay {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+.about .box-info {
+    background-color: #fff;
+    width: 220px;
+    margin: auto;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    margin-bottom: 20px;
+}
+
+.about .box-info h3 {
+    font-family: "Lato-BoldItalic";
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.about .box-info em {
+    font-family: "Lato-BoldItalic";
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 19px;
+
+}
+
+.about .box-info p {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.about .box-wrapper {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .box-wrapper img {
+    width: 100%;
+}
+
+.about .box-wrapper .box-info {
+    width: 100%;
+}
+
+/* contact */
+
+.contact {
+    padding-top: 48px;
+    padding-bottom: 60px;
+    background-color: #ecf0f1;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 11px;
+}
+
+.contact>p {
+    font-size: 14px;
+    margin-bottom: 51px;
+}
+
+.contact input {
+    height: 47px;
+    border: 2px solid #bec3c7;
+    border-radius: 0;
+    margin-bottom: 22px;
+}
+
+.contact input:focus, .contact textarea:focus {
+    box-shadow: none;
+}
+
+.contact textarea {
+    height: 153px;
+    border: 2px solid #bec3c7 !important;
+    border-radius: 0;
+    resize: none;
+    margin-bottom: 23px;
+}
+
+.contact input::placeholder, .contact textarea::placeholder {
+    font-family: "Lato-Italic";
+    font-size: 14px;
+    color: #999;
+}
+
+.contact h3 {
+    font-size: 14px;
+    margin-bottom: 19px;
+}
+
+.contact address {
+    font-size: 14px;
+    margin-bottom: 24px;
+    line-height: 21px;
+}
+
+.contact address p {
+    padding-left: 5px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+.contact address~p {
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+
+.contact button[type=submit] {
+    margin-bottom: 0;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+/* footer */
+
+footer p {
+    line-height: 87px;
+    background-color: #2d3e50;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 19px;
+}
+
+footer .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 42px;
+    background-color: #1bbc9b;
+    line-height: 44px;
+    width: 44px;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.8);
+        left: 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .navbar {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        /* padding : 19px 0; */
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio .box {
+        max-width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* 
+            cho nọi dung phụ thuộc vào cái khung cha
+            để cho cái con luôn 100% so vs thằng cha và giới hạn ở 400
+            dùng margin- left right để nó nằm giữa
+        */
+    }
+    .portfolio img {
+        width: 100%;
+        /* 
+            cho width 100%
+            để nó luôn to bằng cái khung cha
+        */
+    }
+    .portfolio .box:hover .overlay .content {
+        /* opacity: 1; */
+        transform: scale(1.5);
+    }
+}
+
+#about{
+    color : white !important;
+}
